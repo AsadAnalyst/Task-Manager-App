@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- Background Image from Internet -->
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <!-- Transparent Overlay for Better Readability -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <!-- Motivational Quote -->
+    <TextView
+        android:id="@+id/textViewQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading motivational quote..."
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
