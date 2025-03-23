@@ -11,7 +11,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/purple_500"
+        android:background="@color/teal_200"
         app:title="Task Manager App"
         app:titleTextColor="@android:color/white"
         android:gravity="center"
@@ -46,7 +46,7 @@
         app:menu="@menu/bottom_nav_menu"
         app:itemTextColor="@android:color/white"
         app:itemIconTint="@android:color/white"
-        android:background="@color/purple_500"
+        android:background="@color/teal_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

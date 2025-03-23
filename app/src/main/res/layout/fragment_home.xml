@@ -4,14 +4,16 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- Background Image from Internet -->
+    <!-- Background Image -->
     <ImageView
         android:id="@+id/imageViewBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/background_image" /> <!-- Ensure this exists -->
 
-    <!-- Transparent Overlay for Better Readability -->
+    <!-- Semi-transparent Overlay for Readability -->
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
