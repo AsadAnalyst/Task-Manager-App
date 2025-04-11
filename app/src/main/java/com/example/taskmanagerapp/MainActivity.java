@@ -1,4 +1,4 @@
-ssdsaaasasspackage com.example.taskmanagerapp;
+package com.example.taskmanagerapp;
 
 import android.content.Intent;
 import android.os.Bundle;
