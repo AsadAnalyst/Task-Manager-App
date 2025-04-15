@@ -1,4 +1,4 @@
-sdspackage com.example.taskmanagerapp;
+dsdspackage com.example.taskmanagerapp;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
