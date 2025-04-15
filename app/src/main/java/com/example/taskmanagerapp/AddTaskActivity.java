@@ -1,4 +1,4 @@
-aaasssssasdddsdspackage com.example.taskmanagerapp;
+package com.example.taskmanagerapp;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
