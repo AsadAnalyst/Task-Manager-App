@@ -1,4 +1,3 @@
-// UpdateTaskActivity.java
 package com.example.taskmanagerapp;
 
 import android.content.ContentValues;

@@ -35,7 +35,6 @@ public class TaskListFragment extends Fragment {
         List<Task> taskList = databaseHelper.getAllTasks();
         taskAdapter = new TaskAdapter(taskList,
                 task -> {
-                    // Open UpdateTaskActivity when update button is clicked
                     Intent intent = new Intent(getContext(), UpdateTaskActivity.class);
                     intent.putExtra("TASK_ID", task.getId());
                     intent.putExtra("TASK_TITLE", task.getTitle());
@@ -45,7 +44,6 @@ public class TaskListFragment extends Fragment {
                     startActivity(intent);
                 },
                 task -> {
-                    // Handle Task Deletion when delete button is clicked
                     databaseHelper.deleteTask(task.getId());
                     loadTasks(); // Refresh list after deletion
                     Toast.makeText(getContext(), "Task Deleted", Toast.LENGTH_SHORT).show();
@@ -57,6 +55,6 @@ public class TaskListFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        loadTasks(); // Refresh tasks when returning to this fragment
+        loadTasks();
     }
 }

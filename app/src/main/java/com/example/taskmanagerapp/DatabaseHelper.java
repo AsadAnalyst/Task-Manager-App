@@ -32,7 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 + COLUMN_TITLE + " TEXT, "
                 + COLUMN_DESCRIPTION + " TEXT, "
                 + COLUMN_DATE + " TEXT, "
-                + COLUMN_PRIORITY + " INTEGER)"; // Fixed the issue here
+                + COLUMN_PRIORITY + " INTEGER)";
         db.execSQL(CREATE_TABLE);
     }
 

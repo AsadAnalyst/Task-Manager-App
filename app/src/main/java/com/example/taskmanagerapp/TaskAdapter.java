@@ -42,10 +42,8 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         holder.textViewDate.setText(task.getDate());
         holder.textViewPriority.setText("Priority: " + task.getPriority());
 
-        // Set click listener for update button
         holder.buttonUpdate.setOnClickListener(v -> updateListener.onTaskUpdate(task));
 
-        // Set click listener for delete button
         holder.buttonDelete.setOnClickListener(v -> deleteListener.onTaskDelete(task));
     }
 

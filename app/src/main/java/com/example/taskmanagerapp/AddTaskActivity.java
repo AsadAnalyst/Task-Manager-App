@@ -25,20 +25,17 @@ public class AddTaskActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_task);
 
-        // Initialize UI elements
+
         editTextTitle = findViewById(R.id.editTextTitle);
         editTextDescription = findViewById(R.id.editTextDescription);
         editTextDate = findViewById(R.id.editTextDate);
         editTextPriority = findViewById(R.id.editTextPriority);
         buttonSave = findViewById(R.id.buttonSave);
 
-        // Initialize Database Helper
         databaseHelper = new DatabaseHelper(this);
 
-        // Save Button Click Listener
         buttonSave.setOnClickListener(v -> saveTask());
 
-        // Date Picker Listener
         editTextDate.setOnClickListener(v -> showDatePickerDialog());
     }
 
@@ -84,7 +81,7 @@ public class AddTaskActivity extends AppCompatActivity {
 
         if (newRowId != -1) {
             Toast.makeText(this, "Task Added!", Toast.LENGTH_SHORT).show();
-            finish(); // Close activity after saving
+            finish();
         } else {
             Toast.makeText(this, "Error adding task", Toast.LENGTH_SHORT).show();
         }

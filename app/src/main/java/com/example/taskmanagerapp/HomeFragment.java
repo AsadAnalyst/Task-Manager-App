@@ -24,7 +24,7 @@ public class HomeFragment extends Fragment {
     private TextView quoteTextView;
     private ImageView backgroundImageView;
     private static final String QUOTE_API = "https://zenquotes.io/api/random";
-    private static final String IMAGE_URL = "https://source.unsplash.com/1600x900/?nature,motivation"; // Random motivational image
+    private static final String IMAGE_URL = "https://source.unsplash.com/1600x900/?nature,motivation";
 
     @Nullable
     @Override
@@ -35,11 +35,8 @@ public class HomeFragment extends Fragment {
         backgroundImageView = view.findViewById(R.id.imageViewBackground);
 
 
-
-        // Load background image
         Glide.with(this).load(IMAGE_URL).into(backgroundImageView);
 
-        // Fetch motivational quote
         loadQuote();
 
         return view;
