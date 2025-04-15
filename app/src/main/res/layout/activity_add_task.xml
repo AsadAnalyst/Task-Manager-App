@@ -22,7 +22,10 @@
         android:id="@+id/editTextDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Due Date (YYYY-MM-DD)" />
+        android:hint="Due Date"
+        android:focusable="false"
+        android:clickable="true" />
+
 
     <EditText
         android:id="@+id/editTextPriority"

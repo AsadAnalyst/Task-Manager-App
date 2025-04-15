@@ -26,7 +26,7 @@ public class TaskDetailsFragment extends Fragment {
             if (task != null) {
                 textViewTitle.setText(task.getTitle());
                 textViewDescription.setText(task.getDescription());
-                textViewDate.setText(task.getDate());
+                textViewDate.setText("Due: " + task.getDate());
                 textViewPriority.setText("Priority: " + task.getPriority());
             }
         }

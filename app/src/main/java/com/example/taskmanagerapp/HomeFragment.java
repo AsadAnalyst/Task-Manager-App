@@ -34,6 +34,8 @@ public class HomeFragment extends Fragment {
         quoteTextView = view.findViewById(R.id.textViewQuote);
         backgroundImageView = view.findViewById(R.id.imageViewBackground);
 
+
+
         // Load background image
         Glide.with(this).load(IMAGE_URL).into(backgroundImageView);
 

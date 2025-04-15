@@ -1,5 +1,9 @@
 package com.example.taskmanagerapp;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -24,24 +28,13 @@ public class SettingsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_settings, container, false);
         switchNotifications = view.findViewById(R.id.switch_notifications);
 
-        // Initialize SharedPreferences
-        sharedPreferences = requireActivity().getSharedPreferences(PREFS_NAME, 0);
-
-        // Load saved preference
+        sharedPreferences = requireActivity().getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
         boolean isEnabled = sharedPreferences.getBoolean(KEY_NOTIFICATIONS, true);
         switchNotifications.setChecked(isEnabled);
 
-        // Handle switch toggle
-        switchNotifications.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                // Save the preference
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putBoolean(KEY_NOTIFICATIONS, isChecked);
-                editor.apply();
-            }
-        });
-
         return view;
     }
+
+
+
 }
