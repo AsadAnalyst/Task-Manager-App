@@ -1,7 +1,7 @@
 # Task-Manager-App
 
 Question | Answer
-What is SQLiteOpenHelper? 
+**What is SQLiteOpenHelper? 
 | It is a helper class to manage database creation and versioning.
 What does onCreate() do? 
 | It creates the database schema (tables, columns).
