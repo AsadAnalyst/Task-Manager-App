@@ -1,7 +1,7 @@
 # Task-Manager-App
 
 Question | Answer
-**What is SQLiteOpenHelper? 
+What is SQLiteOpenHelper? 
 | It is a helper class to manage database creation and versioning.
 What does onCreate() do? 
 | It creates the database schema (tables, columns).
@@ -21,3 +21,7 @@ Can multiple tables be created in this class?
 | Yes, you can extend the logic in onCreate() to define multiple tables.
 What is the data type of priority? 
 | INTEGER (stored as an int).
+
+
+-------------------------------------------------------------------------------------------
+
