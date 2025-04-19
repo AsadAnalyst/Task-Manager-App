@@ -33,3 +33,5 @@ An intuitive Android application built with Java that helps users efficiently ma
 
 ## 📁 Folder Structure
 
+app/ ├── java/ │ └── com.example.taskmanagerapp/ │ ├── AddTaskActivity.java │ ├── DatabaseHelper.java │ ├── HomeFragment.java │ ├── Task.java │ ├── TaskAdapter.java ├── res/ │ ├── layout/ │ │ ├── activity_add_task.xml │ │ ├── fragment_home.xml │ │ └── item_task.xml │ ├── drawable/ │ └── values/
+
