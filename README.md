@@ -49,3 +49,24 @@ app/
       │ ├── drawable/ 
       │ └── values/
 
+
+
+## 🚀 How to Run
+
+1. Clone the repository  
+2. Open in Android Studio  
+3. Connect your emulator or Android device  
+4. Build and run the app!
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📧 Contact
+
+**Asad Raza**  
+**syed0055asad0@gmail.com
+Feel free to reach out for collaborations or suggestions!
+
+---
+
