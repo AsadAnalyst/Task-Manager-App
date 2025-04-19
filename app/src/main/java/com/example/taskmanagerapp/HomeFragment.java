@@ -24,7 +24,7 @@ public class HomeFragment extends Fragment {
     private TextView quoteTextView;
     private ImageView backgroundImageView;
     private static final String QUOTE_API = "https://zenquotes.io/api/random";
-    private static final String IMAGE_URL = "https://source.unsplash.com/1600x900/?nature,motivation";
+    //private static final String IMAGE_URL = "https://source.unsplash.com/1600x900/?nature,motivation";
 
     @Nullable
     @Override
@@ -32,10 +32,10 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         quoteTextView = view.findViewById(R.id.textViewQuote);
-        backgroundImageView = view.findViewById(R.id.imageViewBackground);
+        //backgroundImageView = view.findViewById(R.id.imageViewBackground);
 
 
-        Glide.with(this).load(IMAGE_URL).into(backgroundImageView);
+        //Glide.with(this).load(IMAGE_URL).into(backgroundImageView);
 
         loadQuote();
 
