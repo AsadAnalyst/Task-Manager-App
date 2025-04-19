@@ -34,19 +34,19 @@ An intuitive Android application built with Java that helps users efficiently ma
 ## 📁 Folder Structure
 
 app/ 
-├── java/ 
-│ └── com.example.taskmanagerapp/ 
-│ ├── AddTaskActivity.java 
-│ ├── DatabaseHelper.java 
-│ ├── HomeFragment.java 
-│ ├── Task.java 
-│ ├── TaskAdapter.java 
-  ├── res/ 
-  │ ├── layout/ 
-  │ │ ├── activity_add_task.xml 
-    │ │ ├── fragment_home.xml 
-    │ │ └── item_task.xml 
-      │ ├── drawable/ 
+├── java/
+│ └── com.example.taskmanagerapp/
+│ ├── AddTaskActivity.java
+│ ├── DatabaseHelper.java
+│ ├── HomeFragment.java
+│ ├── Task.java
+│ ├── TaskAdapter.java
+  ├── res/
+  │ ├── layout/
+  │ │ ├── activity_add_task.xml
+    │ │ ├── fragment_home.xml
+    │ │ └── item_task.xml
+      │ ├── drawable/
       │ └── values/
 
 
@@ -65,7 +65,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## 📧 Contact
 
 **Asad Raza**  
-**syed0055asad0@gmail.com
+syed0055asad0@gmail.com
 Feel free to reach out for collaborations or suggestions!
 
 ---
