@@ -1,4 +1,4 @@
-ssasasaasssssasasspackage com.example.taskmanagerapp;
+package com.example.taskmanagerapp;
 
 import android.Manifest;
 import android.content.Intent;
