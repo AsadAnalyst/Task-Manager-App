@@ -1,4 +1,4 @@
-sssssssspackage com.example.taskmanagerapp;
+ssssssssspackage com.example.taskmanagerapp;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
