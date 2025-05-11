@@ -1,4 +1,4 @@
-aasaaawwwqa# 📱 Task Manager App
+aaasaaawwwqa# 📱 Task Manager App
 
 An intuitive Android application built with Java that helps users efficiently manage their daily tasks. The app supports task creation, editing, deletion, and displays motivational quotes with dynamic background images.
 
