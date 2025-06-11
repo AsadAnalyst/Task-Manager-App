@@ -1,4 +1,4 @@
-sssssssssdsspackage com.example.taskmanagerapp;
+package com.example.taskmanagerapp;
 
 import java.io.Serializable;
 
