@@ -1,4 +1,4 @@
-xsxsspackage com.example.taskmanagerapp;
+xxsxsspackage com.example.taskmanagerapp;
 
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
