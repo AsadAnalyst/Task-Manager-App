@@ -1,4 +1,4 @@
-dpackage com.example.taskmanagerapp;
+sdpackage com.example.taskmanagerapp;
 
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
